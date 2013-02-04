@@ -1,0 +1,57 @@
+*{margin: 0px; padding: 0px; font-size: 12px; font-family: arial; outline:none; list-style:none; text-decoration:none; word-wrap:break-word}
+img{border: 0px;}
+body{background: #FFF;}
+label{font-weight: 600;}
+.content{width: 100%; display: block; margin: auto;}
+.content h1{font-size: 18px; text-align: center; margin: 20px;}
+.content span.required{color: red; font-size: 10px;}
+.content .items input {height: 22px; line-height: 22px; width: 400px; display: block; margin: 10px 5px;}
+.content .items textArea{height: 150px; width: 800px; display: block;}
+.content .items select{line-height: 22px; height: 22px; margin: 10px; padding: 2px;}
+.content .items option{line-height: 22px; height: 22px; padding: 2px;}
+.content select.multiOption{display: block; width: 250px; border: 1px solid #ccc;}
+.content select.multiOption option{height: 22px; line-height: 22px; padding-top: 2px;}
+.content .order input {height: 22px; line-height: 22px; width: 60px; margin: 10px 5px;}
+.content .categoryItem label{display: block; margin: 5px 0px 10px 0px;}
+.content .categoryItem .topicCategoryOption{float: left; margin: 0px;}
+.content .attibutesItem{display: block; margin: 5px 0px 10px 0px;}
+.content .attibutesItem .extension1, .content .attibutesItem .extension2, .content .attibutesItem .extension3, .content .attibutesItem .extension4, .content .attibutesItem .extension5{float: left; margin: 15px 20px 5px 5px;}
+.content .attibutesItem input, .content .attibutesItem label{line-height: 20px; height: 12px; margin: 5px;}
+.content .localityItems{display: block;}
+.content .localityItems input, .content .localityItems label{padding: 5px;}
+#localityAjax{display: none;}
+.displayBlock{display: block !important;}
+.clear{clear: both; margin: 5px;}
+
+.homeHeader{display: block; width: 100%; height: 70px; background: #f3f3f3;}
+.homeHeader h1 a{font-weight: 700; line-height: 70px; color: blue; text-transform: uppercase; text-align: center; font-size: 28px;}
+.homeHeader span a{color: red; float: right; right: 100px; font-weight: 700; font-size: 12px; margin-top: -80px; padding: 10px;}
+.content .previewCategory{display: block; width: 80%; float: right;}
+.content .previewAd{display: block; width: 20%; float: right;}
+.content .categoryBlock{width: 22%; height: 300px; overflow: auto; float: left; border: 1px solid #ccc; background: #f9f9f9; min-height: 300px; margin: 6px;}
+.content .categoryTop{width: 100%; text-align: center; text-transform: uppercase; font-weight: 600; height: 40px; line-height: 40px; background: #cecece;}
+.content .categoryTop a{color: #0A246A;}
+.content .categoryLine{height: 30px; width: 100%; display: block; line-height: 30px; border-bottom: 1px solid #09f;}
+.content .categoryLine a{color: blue; padding: 0px 15px; }
+
+.content .attributesVal{width: 200px; float: left; background: #f1f1f1; min-height: 500px;}
+.content .previewTopic{width: 796px; float: left; background: #fff; min-height: 500px; border: 1px solid #ccc;}
+.content .topicLine{display: block; width: 100%;}
+.content .topicLine .topicTitle{padding: 10px;}
+.content .topicLine .topicTitle a{color: blue; font-size: 14px; font-weight: bold;}
+.content .topicLine .topicTitle span a{color: blue; font-size: 10px; font-weight: normal; font-style: italic;}
+.content .topicLine .topicDesc{padding: 0px 15px 10px 12px;}
+
+.content .attributesVal ul{margin: 10px 0px; width: 100%;  border: 1px solid #ccc;}
+.content .attributesVal ul ul{margin: 0px; border: 0;}
+.content .attributesVal ul li{padding: 5px 15px; margin: 1px; background: #fcfcfc;}
+
+.content .chirlCategory .catStyle .items{width: 100%; display: block;}
+.content .chirlCategory .catStyle .items div.childPre{width: 18%; float: left; border: 1px solid #ccc; margin: 2px; height: 50px; line-height: 50px; text-align: center; font-weight: 700; background: #9aafe5; }
+
+.content .topicForm{margin: 0px 50px;}
+.content .openIdStyle{display: block; padding: 50px;}
+.content .openIdStyle li{padding: 30px; border: 1px solid #ccc; background: #f3f3f3; display: inline;}
+.errorSummary, .errorMessage{color: red; font-style: italic;}
+
+.over-h300{height: 300px; overflow-y: auto; overflow-x: hidden; width: 180px; display: block;}

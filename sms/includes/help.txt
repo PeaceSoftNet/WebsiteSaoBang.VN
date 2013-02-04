@@ -1,0 +1,35 @@
+1. Gửi SMS Notification từ các ứng dụng
+	
+	require_once ROOT_PATH.DS.'commerce/sms/includes/SMSNotification.php';
+	SMSNotification::send($mobile,$content,$applicationCode,$service=false);
+	Trong đó: 
+        * @ param: $mobile - type data string, So dien thoai can gui toi (format chuan so dien thoai ex: 0946515359)
+        * @ param: $content - Noi dung tin nhan can gui di (format la tieng viet khong dau va ko qua 160 ky tu)
+        * @ param: $applicationCode - Tên dịch vụ ứng dụng, dùng để tra cứu và lọc: Ví dụ UpgradeEstore
+        * @ param: $service - Tên dịch vụ sẽ gửi SMS đi, mặc định để failse trừ khi muốn chỉ định 1 dịch vụ cụ thể
+        * * @ return boolean 
+
+2. Viết các dịch vụ SMS
+
+	Mỗi dịch vụ sẽ có 1 file để xử lý, đặt trong commerce/sms/includes/process.Tên dịch vụ.php
+	Ví dụ: process.CDT.KH.php là file xử lý việc kích hoạt tài khoản với đầu mã là CDT
+	          process.RV.VIP.php là file xử lý Tin vip rao vặt
+
+	Class có tên trùng với tên file, bỏ process & dấu chấm: Ví dụ class CDTKH, trong này có 1 function là process()
+Ví dụ:
+ class CDTKH
+    {
+    	/**
+    	* @ param $userId  - type data int, so dien thoai do nguoi dung nhan tin den co dinh dang 84946515359
+        * @ param $content - Noi dung tin nhan người dùng gửi đến
+        * @ param $serviceId - Dau ma dich vu nguoi dung da nhan tin den (8208,8708,8714..)
+        * @ return boolean true la gui duoc, false khong gui thanh cong
+        * 
+        **/
+		function process($userId,$serviceId,$content)
+    	{
+    		// Xử lý các nghiệp vụ dựa trên yêu cầu nêu trong $content;
+    		// Trả về là nội dung sẽ reply cho người dùng
+    		return 'Tai khoan tuatnh da duoc kich hoat. Hay dang nhap lai vao CDT de kiem tra ket qua';
+    	}
+    }

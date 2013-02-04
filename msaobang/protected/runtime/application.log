@@ -1,0 +1,42 @@
+2013/02/01 05:03:28 [error] [php] Invalid argument supplied for foreach() (C:\wamp\www\mSaobang\protected\controllers\MobileController.php:152)
+Stack trace:
+#0 C:\wamp\www\yiiDemo\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\wamp\www\yiiDemo\framework\web\CController.php(286): MobileController->runAction()
+#2 C:\wamp\www\yiiDemo\framework\web\CController.php(265): MobileController->runActionWithFilters()
+#3 C:\wamp\www\yiiDemo\framework\web\CWebApplication.php(282): MobileController->run()
+#4 C:\wamp\www\yiiDemo\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\wamp\www\yiiDemo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\wamp\www\mSaobang\index.php(14): CWebApplication->run()
+REQUEST_URI=/index.mobile
+in C:\wamp\www\mSaobang\protected\controllers\MobileController.php (152)
+in C:\wamp\www\mSaobang\protected\controllers\MobileController.php (25)
+in C:\wamp\www\mSaobang\index.php (14)
+2013/02/01 06:48:58 [error] [php] Invalid argument supplied for foreach() (C:\wamp\www\mSaobang\protected\controllers\MobileController.php:152)
+Stack trace:
+#0 C:\wamp\www\yiiDemo\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\wamp\www\yiiDemo\framework\web\CController.php(286): MobileController->runAction()
+#2 C:\wamp\www\yiiDemo\framework\web\CController.php(265): MobileController->runActionWithFilters()
+#3 C:\wamp\www\yiiDemo\framework\web\CWebApplication.php(282): MobileController->run()
+#4 C:\wamp\www\yiiDemo\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\wamp\www\yiiDemo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\wamp\www\mSaobang\index.php(14): CWebApplication->run()
+REQUEST_URI=/index.mobile
+in C:\wamp\www\mSaobang\protected\controllers\MobileController.php (152)
+in C:\wamp\www\mSaobang\protected\controllers\MobileController.php (25)
+in C:\wamp\www\mSaobang\index.php (14)
+2013/02/01 06:48:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\yiiDemo\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yiiDemo\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\yiiDemo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\mSaobang\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/01 06:48:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\yiiDemo\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yiiDemo\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\yiiDemo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\mSaobang\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---

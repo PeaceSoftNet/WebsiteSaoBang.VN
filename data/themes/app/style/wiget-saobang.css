@@ -1,0 +1,17 @@
+.box-wsb{margin-top:10px;border:1px solid #D2D2D2}
+.box-wsb .g-title{background:url("../images/bg-blockHead.gif") repeat-x scroll left top transparent;height:27px;line-height:27px;border-bottom:1px solid #D2D2D2}
+.box-wsb .g-title h3{font-size:12px;margin:0;line-height:27px;font-weight:bold;text-transform:uppercase;padding:0 10px}
+.box-wsb .wsb-cosnt{background:#F1F1F1;padding:10px;border-top:1px solid #fff}
+.box-wsb .wsb-cosnt ul{margin:0;padding:0;list-style:none}
+.box-wsb .wsb-cosnt li{margin-bottom:10px;background:url("../images/dot-double.gif") repeat-x scroll left bottom transparent;padding-bottom:10px}
+.box-wsb .wsb-cosnt li.bottom{margin:0}
+.box-wsb .wsb-cosnt li a.img80{width:80px;height:80px;float:left;margin:0 10px 5px 0}
+.box-wsb .wsb-cosnt li h2{font-size:12px;margin-bottom:10px;line-height:16px}
+.box-wsb .wsb-cosnt li h2 a:hover{text-decoration:underline}
+.box-wsb .wsb-cosnt li p.price{color:#D70B14;margin:0}
+.box-wsb .wsb-cosnt li .timeup{color:#999;font-size:11px;margin:0}
+.box-wsb .wsb-cosnt li .timeup a{color:#666}
+.box-wsb .wsb-cosnt li.last{background:none}
+.box-wsb .wsb-cosnt li span.ico-news{background:url("../icons/icon-Itemview.png") no-repeat scroll left -293px transparent;padding:0 5px}
+
+

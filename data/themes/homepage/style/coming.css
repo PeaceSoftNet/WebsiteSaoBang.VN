@@ -1,0 +1,14 @@
+body { background: #eff6fa; font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #000; line-height: 1.5; }
+.main-coming { width: 600px; margin: 0 auto; }
+#top-coming .main-coming { background: url(../images/bg-top-coming.png) no-repeat center top; height: 343px; }
+#cont-coming { height: 148px; background: url(../images/bg-cont-coming.png) repeat-x center top; border-top: 1px solid #4b9dc5; border-bottom: 1px solid #3e8bbd; position: relative; box-shadow: 0 1px 1px #ddd; -moz-box-shadow: 0 1px 1px #ddd; -webkit-box-shadow: 0 1px 1px #ddd; filter: progid:DXImageTransform.Microsoft.Shadow(Color=#dddddd, Strength=2, Direction=180); }
+#cont-coming .main-coming { padding-top: 20px; text-align: center; }
+#cont-coming h1 { color: #fff; font-size: 20px; font-weight: normal; padding: 0 50px 10px; margin: 0; text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3); line-height: 24px; }
+.box-regisEmail { width: 500px; margin: 0 auto; display: inline-block; position: relative; }
+.box-EntEmail { float: left; height: 35px; margin-top: 10px; }
+	.box-EntEmail .corner-left, .box-EntEmail .corner-right { width: 3px; height: 35px; background-image: url(../images/bg-search-head.png); background-repeat: no-repeat; }
+	.box-EntEmail .corner-left { float: left; background-position: 0 0; }
+	.box-EntEmail .corner-right { float: right; background-position: 0 -35px; }
+	.box-EntEmail input.EntEmail { border: none; height: 35px; line-height: 35px; background: url(../images/bg-search-head.png) repeat-x center -70px; padding: 0 5px; color: #3890bc; font-size: 14px; width: 368px; }
+.box-regisEmail input.submit { margin: 9px 0 0 0; padding: 0 0 3px; border: none; float: right; width: 104px; height: 37px; text-align: center; background: url(../button/btn-hd.png) no-repeat -148px -91px; color: #fff; font-size: 15px; text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.4); cursor: pointer; }
+#bt-coming .main-coming { padding-top: 60px; text-align: center; color: #3890bc; }

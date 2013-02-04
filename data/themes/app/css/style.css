@@ -1,0 +1,12 @@
+@charset "utf-8";
+/* CSS Document */
+.wd-saobang { border: 1px solid #71b1d0; font-family: Arial, Helvetica, sans-serif;	font-size: 12px; line-height: 1.2; background: #e5f3f9; }
+h3.wd-sb-title { margin: 0; padding: 0; height: 25px; line-height: 25px; font-size: 13px; font-weight: bold; color: #000; position: relative; border-bottom: 1px solid #71b1d0; background: url(../images/bg-title.png) repeat-x center top; }
+h3.wd-sb-title .logo-sb { background: url(../images/logo.png) no-repeat left top; width: 144px; height: 22px; position: absolute; left: 8px; top: 2px; }
+ul.wd-sb-content { margin: 0; padding: 0; list-style: none; }
+ul.wd-sb-content li { border-top: 1px solid #fff; margin: 0; padding: 5px 10px; list-style: none; text-align: center; }
+ul.wd-sb-content li .wd-sb-img { text-align: center; padding: 2px 0; }
+ul.wd-sb-content li .wd-sb-img a img { border: none; }
+ul.wd-sb-content li .wd-sb-name { margin: 0; padding: 0; font-size: 12px; line-height: 16px; color: #000; text-align: center; font-weight: normal; height: 32px; overflow: hidden; }
+ul.wd-sb-content li .wd-sb-name a { color: #000; text-decoration: none; }
+ul.wd-sb-content li .wd-sb-price { margin: 0; padding: 0; font-size: 12px; line-height: 18px; color: #f47a20; text-align: center; font-weight: normal; }

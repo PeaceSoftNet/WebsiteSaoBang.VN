@@ -1,0 +1,36 @@
+/*
+Uploadify
+Copyright (c) 2012 Reactive Apps, Ronnie Garcia
+Released under the MIT License <http://www.opensource.org/licenses/mit-license.php> 
+*/
+
+.uploadify {
+    position: relative;
+    margin-bottom: 1em;
+}
+.uploadify-queue, .uploadify{float: left;}
+.notes{text-decoration:blink; margin-left: 30px!important;}
+.uploadify-button { border: 1px solid #9b9b9b; background: url(/themes/homepage/images/gr-fil-br-sltbox.png) repeat-x center top; height: 23px; box-shadow: 0 1px 1px #dddddd; -moz-box-shadow: 0 1px 1px #dddddd; -webkit-box-shadow: 0 1px 1px #dddddd; border-radius: 2px; -moz-border-radius: 2px; -webkit-border-radius: 2px; filter: progid:DXImageTransform.Microsoft.Shadow(Color=#dddddd, Strength=1, Direction=90), progid:DXImageTransform.Microsoft.Shadow(Color=#dddddd, Strength=2, Direction=180), progid:DXImageTransform.Microsoft.Shadow(Color=#dddddd, Strength=1, Direction=270); display: inline-block; padding: 0 10px; color: #0f0f0f; text-shadow: 1px 1px 0 #fff; text-decoration: none !important; }
+.uploadify-button.disabled {
+    background-color: #D0D0D0;
+    color: #808080;
+}
+.uploadify-queue {
+    margin-bottom: 1em;
+}
+.uploadify-queue-item { float: left; width: 150px; height: 10px; background: url(/themes/homepage/images/submit-images.png) no-repeat left top; }
+
+.uploadify-error {
+    background-color: #FDE5DD !important;
+}
+
+.uploadify-queue-item.completed {
+    background-color: #E5E5E5;
+}
+.uploadify-progress {
+    overflow: hidden; display: block; height: 10px; background: url(/themes/homepage/images/submit-images.png) no-repeat left -20px; padding-left: 5px;
+}
+.uploadify-progress-bar {
+    display: block; height: 10px; background: url(/themes/homepage/images/submit-images.png) no-repeat right -30px; width: 0%;
+}
+.uploadify-queue-item a.cancel { float: right !important; color: #0f0f0f; text-decoration: none !important; font-size: 11px; line-height: 11px; }
